@@ -1,0 +1,181 @@
+.body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+#img {
+    background-image: url("https://thumbs.gfycat.com/BackIllinformedIndri-size_restricted.gif");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 218vh;
+    height: 98vh;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly
+}
+
+#icon {
+    display: flex;
+    width:80px;
+    margin-bottom: 10px;
+    height: 80px;
+    border-radius: 20px;
+    transform: rotate(40deg);
+}
+.top-left {
+
+    margin: 20px;
+    margin-left: 10px;
+
+}
+
+.top-left a {
+    margin-right: 30px;
+    margin-top: 10px;
+    color: black;
+
+    text-decoration: none;
+}
+
+.top-center {
+    display: flex;
+    margin-top: 15px;
+    font-size: 2.5rem;
+    color: #5807eb
+}
+.top-right {
+    display: flex;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}
+.item {
+    margin-left: 30px;
+    margin-top: 15px;
+
+    border: 1px solid grey;
+    background-color: aquamarine;
+    border-radius: 5px;
+    height: 20px;
+    cursor: pointer;
+}
+.item:hover {
+    color: rgb(76, 37, 218);
+}
+
+.certificates {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.certificates a:hover{
+color:white
+}
+.tenth {
+
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 110px;
+    padding-top: 10px;
+    height: 35px;
+    cursor: pointer;
+}
+.twelth {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 110px;
+    padding-top: 10px;
+    height: 35px;
+    cursor: pointer;
+}
+.bach {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 110px;
+    padding-top: 10px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+}
+.resume {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 110px;
+    padding-top: 10px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+}
+.tenth:hover {
+    color: white;
+}
+
+.twelth:hover {
+    color: white;
+}
+
+.bach:hover {
+    color: white;
+}
+
+.resume:hover {
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    left: 430px;
+    bottom:1px;
+    text-align: center;
+    color: rgb(3, 2, 2);
+}
+
+#lib {
+    margin-left: 850px;
+    margin-top: 10px;
+    background-color: rgb(20, 192, 123);
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 80px;
+}
+#gym {
+    text-decoration: none;
+    margin-left: 1000px;
+    margin-top: -22px;
+    background-color: rgb(20, 192, 123);
+    border-radius: 20px;
+    text-align: center;
+    width: 80px;
+}
+
+.visit {
+    margin-left: 930px;
+    background-color: rgb(167, 228, 199);
+    border-radius: 20px;
+    text-align: center;
+    width: 80px;
+    font-size: 1.rem;
+    color: rgb(111, 31, 203);
+}
